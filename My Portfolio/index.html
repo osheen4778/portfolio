@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osheen's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Osheen Sharma</span></h1>
+                <h1 class="typing-text">
+                     <span id="typed-role"></span>
+                  </h1>
+                  
+                  <a href="resume.pdf" class="btn" target="_blank">
+                    <i class="fas fa-eye"></i> View Resume
+                  </a>
+                  <a href="resume.pdf" class="btn" download>
+                    <i class="fas fa-download"></i> Download Resume
+                  </a>
+            </div>
+            <div class="hero-image">
+                <img src="pics\profile-pic.png" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-glass-card">
+                <div class="about-content about-flex">
+                    <div class="about-image">
+                        <img src="pics\about.png" alt="About Image">
+                    </div>
+                    <div class="about-main">
+                        <div class="about-text">
+                            <p>I'm a passionate and curious software engineer, just starting out but driven by a strong love for building things that make a difference. 
+                                I have a solid grasp of programming fundamentals and enjoy working with technologies like JavaScript, Python, and frameworks such as React and Node.js. 
+                                I've worked on a few personal and academic projects that helped me grow both as a coder and a problem-solver. I thrive in collaborative environments, love learning new tools and techniques, and am excited to contribute to meaningful projects as I kick off my career in tech.</p>
+                            <p>My goal is to create intuitive user experiences with clean, efficient code. I'm constantly learning new technologies and techniques to stay at the forefront of Software Engineering.</p>
+                        </div>
+                        <div class="about-extras-row">
+                            <div class="about-extra about-interests">
+                                <h4>Personal Interests</h4>
+                                <ul class="about-list">
+                                    <li>🎵 Music</li>
+                                    <li>📚 Reading</li>
+                                    <li>🌍 Traveling</li>
+                                    <li>⚽ Sports</li>
+                                    <li>🎮 Gaming</li>
+                                </ul>
+                            </div>
+                            <div class="about-extra about-curricular">
+                                <h4>Extra-Curricular Activities</h4>
+                                <ul class="about-list">
+                                    <li>Member, Coding Club</li>
+                                    <li>Volunteer, Local NGO</li>
+                                    <li>Lead Organizer, University Hackathon</li>
+                                    <li>Sports Team Captain</li>
+                                </ul>
+                            </div>
+                            <div class="about-extra about-courses">
+                                <h4>Additional Courses & Training</h4>
+                                <ul class="about-list">
+                                    <li>Full-Stack Web Development (Coursera)</li>
+                                    <li>Data Structures & Algorithms (Udemy)</li>
+                                    <li>Python for Everybody (edX)</li>
+                                    <li>UI/UX Design Fundamentals (Google)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-wave-divider">
+                <svg viewBox="0 0 1440 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="#f9f9f9" d="M0,0 C480,100 960,0 1440,100 L1440,100 L0,100 Z"></path></svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline-v2">
+            <div class="timeline-v2-item left">
+                <div class="timeline-v2-content">
+                    <h3>Bachelor of Technology (Computer Science)</h3>
+                    <span>XYZ University, 2020–2024</span>
+                </div>
+                <div class="timeline-v2-img">
+                    <img src="pics/uni logo.png" alt="University Logo">
+                </div>
+            </div>
+            <div class="timeline-v2-item right">
+                <div class="timeline-v2-content">
+                    <h3>BE Software Engineering</h3>
+                    <span>ABC School, 2018–2020</span>
+                </div>
+                <div class="timeline-v2-img">
+                    <img src="pics/school logo.jpg" alt="Uni logo">
+                </div>
+            </div>
+            <div class="timeline-v2-item left">
+                <div class="timeline-v2-content">
+                    <h3>12th Grade</h3>
+                    <span>ABC School, 2016–2018</span>
+                </div>
+                <div class="timeline-v2-img">
+                    <img src="pics/school logo.jpg" alt="10th School Logo">
+                </div>
+            </div>
+            <div class="timeline-v2-item right">
+                <div class="timeline-v2-content">
+                    <h3>10th Grade</h3>
+                    <span>ABC School, 2018–2020</span>
+                </div>
+                <div class="timeline-v2-img">
+                    <img src="pics/school logo.jpg" alt="school logo">
+                </div>
+            </div>
+            <!-- Final Node -->
+            <div class="timeline-v2-item final-node center">
+                <div class="timeline-v2-final-circle">Your Next Hire</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+                I've worked with a range of technologies in the web development world.
+                Here are my main areas of expertise and the tools I use regularly.
+              </p>
+              <div class="skills-grid">
+                <!-- Frontend Skills -->
+                <div class="skill-category frontend">
+                    <h3 class="category-title">
+                        <i class="fas fa-laptop-code"></i>
+                        Frontend
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-html5 skill-icon"></i>
+                            <span class="skill-name">HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt skill-icon"></i>
+                            <span class="skill-name">CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js skill-icon"></i>
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react skill-icon"></i>
+                            <span class="skill-name">React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-vuejs skill-icon"></i>
+                            <span class="skill-name">Vue.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code skill-icon"></i>
+                            <span class="skill-name">Next.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-bootstrap skill-icon"></i>
+                            <span class="skill-name">Bootstrap</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-wind skill-icon"></i>
+                            <span class="skill-name">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend Skills -->
+                <div class="skill-category backend">
+                    <h3 class="category-title">
+                        <i class="fas fa-server"></i>
+                        Backend
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js skill-icon"></i>
+                            <span class="skill-name">Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-project-diagram skill-icon"></i>
+                            <span class="skill-name">Express.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python skill-icon"></i>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database skill-icon"></i>
+                            <span class="skill-name">MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database skill-icon"></i>
+                            <span class="skill-name">PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fire skill-icon"></i>
+                            <span class="skill-name">Firebase</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code-branch skill-icon"></i>
+                            <span class="skill-name">REST APIs</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database skill-icon"></i>
+                            <span class="skill-name">Redis</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Others -->
+                <div class="skill-category tools">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Tools & Others
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt skill-icon"></i>
+                            <span class="skill-name">Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github skill-icon"></i>
+                            <span class="skill-name">GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code skill-icon"></i>
+                            <span class="skill-name">VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-figma skill-icon"></i>
+                            <span class="skill-name">Figma</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker skill-icon"></i>
+                            <span class="skill-name">Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-aws skill-icon"></i>
+                            <span class="skill-name">AWS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-random skill-icon"></i>
+                            <span class="skill-name">CI/CD</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-vial skill-icon"></i>
+                            <span class="skill-name">Jest</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft skill-icon"></i>
+                            <span class="skill-name">TypeScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-palette skill-icon"></i>
+                            <span class="skill-name">Canva</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- GitHub Stats Section -->
+<section id="github-stats" class="github-section">
+    <h2 class="section-title">GitHub Stats</h2>
+    
+    <div class="stats-container">
+        <!-- Main Stats -->
+        <div class="stats-card main-stats">
+            <h3>Osheen Sharma's GitHub Stats</h3>
+            <ul class="stats-list">
+                <li><span class="stat-name">Total Stars Earned:</span> <span class="stat-value">29</span></li>
+                <li><span class="stat-name">Total Commits (2025):</span> <span class="stat-value">2</span></li>
+                <li><span class="stat-name">Total PRs:</span> <span class="stat-value">41</span></li>
+                <li><span class="stat-name">Total Issues:</span> <span class="stat-value">15</span></li>
+                <li><span class="stat-name">Contributed to (last year):</span> <span class="stat-value">0</span></li>
+            </ul>
+        </div>
+        <div class="github-graph-container">
+            <h3>My Contribution Graph</h3>
+            <div class="github-graph">
+                <!-- Replace with your actual GitHub username -->
+                <img src="pics\contributions.png" alt="Osheen Sharma's GitHub Contributions" />
+                <p>My coding activity over the past year</p>
+            </div>
+        </div>
+        
+        <!-- Contribution Stats -->
+        <div class="stats-grid">
+            <div class="stats-card">
+                <div class="stat-number">132</div>
+                <div class="stat-desc">Total Contributions</div>
+                <div class="stat-period">Sep 4, 2022 - Present</div>
+            </div>
+            
+            <div class="stats-card">
+                <div class="stat-number">0</div>
+                <div class="stat-desc">Current Streak</div>
+                <div class="stat-period">May 16</div>
+            </div>
+            
+            <div class="stats-card">
+                <div class="stat-number">9</div>
+                <div class="stat-desc">Longest Streak</div>
+                <div class="stat-period">Mar 23, 2023 - Mar 31, 2023</div>
+            </div>
+        </div>
+        
+        <!-- Languages -->
+        <div class="languages-card">
+            <h3>Most Used Languages</h3>
+            <div class="language-bars">
+                <div class="language-bar" style="--percentage: 95.49%; --color: #f1e05a;">
+                    <span class="language-name">JavaScript</span>
+                    <span class="language-percent">95.49%</span>
+                    <div class="bar"></div>
+                </div>
+                <div class="language-bar" style="--percentage: 2.33%; --color: #e34c26;">
+                    <span class="language-name">HTML</span>
+                    <span class="language-percent">87.33%</span>
+                    <div class="bar"></div>
+                </div>
+                <div class="language-bar" style="--percentage: 2.18%; --color: #563d7c;">
+                    <span class="language-name">CSS</span>
+                    <span class="language-percent">2.18%</span>
+                    <div class="bar"></div>
+                </div>
+                <div class="language-bar" style="--percentage: 0.01%; --color: #89e051;">
+                    <span class="language-name">Shell</span>
+                    <span class="language-percent">0.01%</span>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+      
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-box">
+                    <div class="project-image">
+                        <div class="image-mask"></div>
+                        <img src="pics\Project1.png" alt="Cortidigital Project">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title">
+                            <h3>Cortidigital</h3>
+                            <span class="project-category">MERN</span>
+                        </div>
+                        
+                        <div class="project-details">
+                            <h4>Mission</h4>
+                            <p>Cortidigital is a web application with two roles: admin and student. As an admin, you can upload certificate templates, create bulk certificates, and send them to specific emails.</p>
+                            
+                            <h4>Tech Stack</h4>
+                            <div class="tech-stack">
+                                <span>React</span>
+                                <span>Redux</span>
+                                <span>Node-JS</span>
+                                <span>MongoDB</span>
+                                <span>Redis</span>
+                                <span>Bull</span>
+                                <span>Swagger</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-actions">
+                            <a href="#" class="action-btn video-btn">
+                                <i class="fas fa-video"></i> Video
+                            </a>
+                            <a href="#" class="action-btn live-btn">
+                                <i class="fas fa-globe"></i> Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-box">
+                    <div class="project-image">
+                        <div class="image-mask"></div>
+                        <img src="pics\Project1.png" alt="Masai Placement Portal">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title">
+                            <h3>Masai Placement Portal</h3>
+                            <span class="project-category">MERN</span>
+                        </div>
+                        
+                        <div class="project-details">
+                            <h4>Mission</h4>
+                            <p>Placement team creates companies positions with eligibility on the portal so that students can view and apply accordingly to their skill sets.</p>
+                            
+                            <h4>Tech Stack</h4>
+                            <div class="tech-stack">
+                                <span>React</span>
+                                <span>Redux</span>
+                                <span>Node-JS</span>
+                                <span>MongoDB</span>
+                                <span>Redis</span>
+                                <span>Swagger</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-actions">
+                            <a href="#" class="action-btn video-btn">
+                                <i class="fas fa-video"></i> Video
+                            </a>
+                            <a href="#" class="action-btn live-btn">
+                                <i class="fas fa-globe"></i> Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-box">
+                    <div class="project-image">
+                        <div class="image-mask"></div>
+                        <img src="pics\Project1.png" alt="Fitmeal Clone">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title">
+                            <h3>Fitmeal-Clone</h3>
+                            <span class="project-category">FrontEnd</span>
+                        </div>
+                        
+                        <div class="project-details">
+                            <h4>Mission</h4>
+                            <p>Fitmeal – Healthy Food and Nutrition WordPress theme created especially for Food store & Delivery, Fitness Diet & meal.</p>
+                            
+                            <h4>Tech Stack</h4>
+                            <div class="tech-stack">
+                                <span>React</span>
+                                <span>Redux</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-actions">
+                            <a href="#" class="action-btn code-btn">
+                                <i class="fab fa-github"></i> Github
+                            </a>
+                            <a href="#" class="action-btn live-btn">
+                                <i class="fas fa-globe"></i> Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-box">
+                    <div class="project-image">
+                        <div class="image-mask"></div>
+                        <img src="pics\Project1.png" alt="Masai Placement Portal">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title">
+                            <h3>Masai Placement Portal</h3>
+                            <span class="project-category">MERN</span>
+                        </div>
+                        
+                        <div class="project-details">
+                            <h4>Mission</h4>
+                            <p>Placement team creates companies positions with eligibility on the portal so that students can view and apply accordingly to their skill sets.</p>
+                            
+                            <h4>Tech Stack</h4>
+                            <div class="tech-stack">
+                                <span>React</span>
+                                <span>Redux</span>
+                                <span>Node-JS</span>
+                                <span>MongoDB</span>
+                                <span>Redis</span>
+                                <span>Swagger</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-actions">
+                            <a href="#" class="action-btn video-btn">
+                                <i class="fas fa-video"></i> Video
+                            </a>
+                            <a href="#" class="action-btn live-btn">
+                                <i class="fas fa-globe"></i> Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-box">
+                    <div class="project-image">
+                        <div class="image-mask"></div>
+                        <img src="pics\Project1.png" alt="Masai Placement Portal">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title">
+                            <h3>Masai Placement Portal</h3>
+                            <span class="project-category">MERN</span>
+                        </div>
+                        
+                        <div class="project-details">
+                            <h4>Mission</h4>
+                            <p>Placement team creates companies positions with eligibility on the portal so that students can view and apply accordingly to their skill sets.</p>
+                            
+                            <h4>Tech Stack</h4>
+                            <div class="tech-stack">
+                                <span>React</span>
+                                <span>Redux</span>
+                                <span>Node-JS</span>
+                                <span>MongoDB</span>
+                                <span>Redis</span>
+                                <span>Swagger</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-actions">
+                            <a href="#" class="action-btn video-btn">
+                                <i class="fas fa-video"></i> Video
+                            </a>
+                            <a href="#" class="action-btn live-btn">
+                                <i class="fas fa-globe"></i> Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-box">
+                    <div class="project-image">
+                        <div class="image-mask"></div>
+                        <img src="pics\Project1.png" alt="Masai Placement Portal">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title">
+                            <h3>Masai Placement Portal</h3>
+                            <span class="project-category">MERN</span>
+                        </div>
+                        
+                        <div class="project-details">
+                            <h4>Mission</h4>
+                            <p>Placement team creates companies positions with eligibility on the portal so that students can view and apply accordingly to their skill sets.</p>
+                            
+                            <h4>Tech Stack</h4>
+                            <div class="tech-stack">
+                                <span>React</span>
+                                <span>Redux</span>
+                                <span>Node-JS</span>
+                                <span>MongoDB</span>
+                                <span>Redis</span>
+                                <span>Swagger</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-actions">
+                            <a href="#" class="action-btn video-btn">
+                                <i class="fas fa-video"></i> Video
+                            </a>
+                            <a href="#" class="action-btn live-btn">
+                                <i class="fas fa-globe"></i> Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Feel free to reach out for collaborations or just a friendly hello</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>osheen.sharma@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 6239898780</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Panchkula, India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy;2025 Osheen Sharma. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
